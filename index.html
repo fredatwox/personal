@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Splash Screen with Preloader -->
+  <div id="splash-screen">
+    <div class="preloader"></div>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">FA</div>
+
+      
+        <!-- <img src="images/logo.svg" alt="Homepage"> -->
+    <!-- </a> -->
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>  <br>
+         A Junior Web <br>
+        Developer.
+
+      </h1>
+      <div class="buttons">
+        <a href="#about" class="btn">About Me</a>
+        <a href="#" class="btn">Get My CV</a>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      
+      
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="about-image">
+        <img src="/img/polo1.png" alt="About Me">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p><em>I am a Web developer with 2 year’s experience in Web development. Proficient in  HTML5, CSS3, JavaScript, and modern frameworks such as React, Vue.js, and Node.js.  Experienced in server-side languages like PHP, Python, as well as database management using SQL and NoSQL systems. Passionate Full stack Developer always exploring new trends, solving problems creatively, and collaborating to build exciting, user-friendly digital experiences that make a real impact. </em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience/Education Section -->
+  <section id="experience" class="parallax">
+    <div class="container">
+      <h2>Work Experience & Education</h2>
+      <div class="columns">
+        <div class="column">
+          <h3>Work Experience</h3>
+          <ul>
+            <li>Web Developer - Moneyhub Ghana</li>
+            <li>Computer Technician- Get4Less Company</li>
+            <li>Network systems - 37 Military Hospital</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Education</h3>
+          <ul>
+            <li>Bsc.IT - Bluecrest University College</li>
+            <li>Computer Hardware - NIIT</li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container-1">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-react"></i> React</div>
+        <div class="skill"><i class="fab fa-node"></i> Node.js</div>
+        <div class="skill"><i class="fab fa-git"></i> Git</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="/img/Screenshot 1.jpg" alt="Project 1">
+          <h3>CakeShop</h3>
+          <p>This is a demo project of a website for a cakeshop. High-quality pictures was used to create this beautifully decorated website. They specialize in a variety of cakes, including wedding, birthday cakes. Cake decorating classes are available, and they offer delivery for events.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <img src="/img/Screenshot 2.jpg" alt="Project 2">
+          <h3>TaskMaster</h3>
+          <p>TaskMaster is a simple and intuitive to-do app that helps you stay organized. It allows you to create tasks, set deadlines, and prioritize them, with customizable lists and reminders. You can collaborate with others and sync your tasks across devices for easy access anytime, anywhere.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <img src="/img/Screenshot 3.jpg" alt="Project 3">
+          <h3>Axis </h3>
+          <p>This is a Member login page for employees at Axis Pension Trust. The login page prompts users to enter their email and password to access their account. There’s an option to reset the password if forgotten, along with links to the Terms of Service and Privacy Policy.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta">
+    <div class="container">
+      <h2>Interested in Working Together?</h2>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div>
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2025 CodersCraft. All rights reserved.</p>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
