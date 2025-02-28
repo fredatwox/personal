@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     const splashScreen = document.getElementById('splash-screen');
     setTimeout(() => {
         splashScreen.style.display = 'none';
-    }, 2000); // Adjust time as needed
+    }, 5000); // Adjust time as needed
 });
 
 // Dark/Light Mode Toggle

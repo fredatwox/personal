@@ -3,25 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Fredport</title>
  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <!-- Splash Screen with Preloader -->
   <div id="splash-screen">
-    <div class="preloader"></div>
+    <img src="/img/gff.gif" alt="Loading...">
+    <!-- <div class="preloader"></div> -->
   </div>
 
   <!-- Header -->
   <header id="header">
     <div class="container">
-      <div class="logo">FA</div>
+      <div class="logo">
+        <img src="/img/lobop.png" alt="Logo">
+      </div>
 
       
-        <!-- <img src="images/logo.svg" alt="Homepage"> -->
-    <!-- </a> -->
+     
       <nav>
         <ul>
           <li><a href="#hero">Home</a></li>
@@ -38,23 +42,23 @@
 
   <!-- Hero Section -->
   <section id="hero">
-    <div class="hero-content">
-      <h1>  <br>
-         A Junior Web <br>
-        Developer.
+    <!-- <div class="overlay"> -->
+      <div class="hero-content">
+        <h1> I am <br>
+          Fred Adjei <br>
+          a Web Developer.
 
-      </h1>
-      <div class="buttons">
-        <a href="#about" class="btn">About Me</a>
-        <a href="#" class="btn">Get My CV</a>
+        </h1>
+        <div class="buttons">
+          <a href="#about" class="btn">About Me</a>
+          <a href="#" class="btn">Get My CV</a>
+        </div>
       </div>
-    </div>
+    <!-- </div> -->
     <div class="social-icons">
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      
-      
+      <a href="https://github.com/fredatwox"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/frederick-adjei-b25b59192/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/Jaymensflow"><i class="fab fa-twitter"></i></a>
     </div>
   </section>
 
@@ -71,42 +75,79 @@
     </div>
   </section>
 
-  <!-- Experience/Education Section -->
-  <section id="experience" class="parallax">
-    <div class="container">
-      <h2>Work Experience & Education</h2>
-      <div class="columns">
-        <div class="column">
-          <h3>Work Experience</h3>
-          <ul>
-            <li>Web Developer - Moneyhub Ghana</li>
-            <li>Computer Technician- Get4Less Company</li>
-            <li>Network systems - 37 Military Hospital</li>
-          </ul>
-        </div>
-        <div class="column">
-          <h3>Education</h3>
-          <ul>
-            <li>Bsc.IT - Bluecrest University College</li>
-            <li>Computer Hardware - NIIT</li>
-            <li></li>
-          </ul>
-        </div>
+
+   <!-- Sections -->
+ <section id="experience" class="experience">
+  <div class="overlay sections">
+      <div class="container">
+          <div class="row">
+              <div class="experience-wrapper">
+                
+
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                      <div class="experience-content grid grid-cols-3 grid-rows-3 gap-4">
+                        
+                          <h4>WORK EXPERIENCE</h4>
+                          
+                          <div class="content-details content-border">
+                        
+                              <h5>Moneyhub Ghana</h5>
+                              <h6>MAY 2013 - NOV 2024</h6>
+                              <p>Web Developer and creative designer.</p>
+                          </div>
+                        
+                          <div class="content-details">
+                              <h5>Get4Less Ghana</h5>
+                              <h6>OCT 2024 - JAN 2025</h6>
+                              <p>Computer Techincian, dealing with hardware and software.</p>
+                          </div>
+
+                      </div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                      <div class="experience-content grid grid-cols-3 grid-rows-3 gap-4">
+                         
+                          <h4>EDUCATION</h4>
+                         
+                          <div class="content-details content-border">
+                              <h5>Bluecrest University</h5>
+                              <h6>OCT 2019 - june 2022</h6>
+                              <p>A technology school which uphold excellence.</p>
+                          </div>
+                        
+                          <div class="content-details">
+                              <h5>NIIT</h5>
+                              <h6>MAR 2018 - Auhust 2018</h6>
+                              <p>NIIT school training in hardware and software.</p>
+                          </div>
+                        
+                      </div>
+                  </div>
+                
+              </div>	
+          </div>
       </div>
-    </div>
-  </section>
+  </div>       
+</section>
+
+
+
+  
+
+
 
   <!-- Skills Section -->
   <section id="skills">
     <div class="container-1">
       <h2>Skills</h2>
       <div class="skills-grid">
-        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
-        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
-        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
-        <div class="skill"><i class="fab fa-react"></i> React</div>
-        <div class="skill"><i class="fab fa-node"></i> Node.js</div>
-        <div class="skill"><i class="fab fa-git"></i> Git</div>
+        <div class="skill" data-color="red"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill" data-color="blue"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="skill" data-color="yellow"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill" data-color="blue"><i class="fab fa-react"></i> React</div>
+        <div class="skill" data-color="green"><i class="fab fa-node"></i> Node.js</div>
+        <div class="skill" data-color="black"><i class="fab fa-github"></i> Git</div>
       </div>
     </div>
   </section>
@@ -163,11 +204,12 @@
 
   <!-- Footer -->
   <footer>
-    <div class="social-icons">
+    <!-- <div class="social-icons">
       <a href="#"><i class="fab fa-github"></i></a>
       <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <i class="fa fa-download" aria-hidden="true"></i>
+    </div> -->
     <p>&copy; 2025 CodersCraft. All rights reserved.</p>
   </footer>
 
