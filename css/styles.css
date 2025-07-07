@@ -488,6 +488,7 @@ input[type='checkbox'] {
 	width: 2em;
 	margin-right: 0.25rem;
 	font-size: 0.75rem;
+	
 }
 
 .navbar .fa-stack-2x {
@@ -546,6 +547,7 @@ input[type='checkbox'] {
 	background: transparent;
 	color: #9c9ead;
 	text-decoration: none;
+	
 }
 
 .header .btn-outline-lg .fas {
@@ -603,8 +605,8 @@ input[type='checkbox'] {
 	border: 1px solid #cfd7de;
 }
 
-.basic-2 .fas,
-.basic-2 .far {
+.basic-2 .fa,
+.basic-2 .fa {
 	margin-bottom: 1.75rem;
 	color: #0b36a8;
 	font-size: 3.5rem;
@@ -1069,7 +1071,7 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
+	background: #3a424d url("../img/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 }
